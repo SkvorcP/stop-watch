@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Timer</title>
+</head>
+
+<body class="bg-gray-200">
+    <div class="container mx-auto block text-center m-48 bg-gray-100 w-2/6 py-16">
+
+        <h1 class="text-5xl block" id="clock">00:00:00</h1>
+        <button class="text-white font-bold py-2 px-4 rounded h-12 w-24"
+            id="start">Start</button>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded h-12 w-24"
+            id="lap">Lap</button>
+        <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded h-12 w-24"
+            id="reset">Reset</button>
+
+        <div class="container" id="laps">
+        </div>
+
+        <script src="../dist/bundle.js"></script>
+    </div>
+</body>
+
+</html>
